@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;700;800&display=swap');
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-weight: 300;
+}
+:root {
+    --natural-white: rgba(255, 255, 255, 1);
+    --background-color: #0D0D2B;
+}
+.logo span {
+    font-weight: 800;
+    color: var(--natural-white);
+}
+.logo img {
+    margin-right: 1rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 3rem;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: #0D0D2B;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+    text-decoration: none; 
+}
+.nav-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+}
+button {
+    text-decoration-style: none;
+    margin-right: 1rem;
+    background-color:#3671E9;
+    border-radius: 32px;
+    border: none;
+    width: 130px;
+    height: 52px;
+}
+nav button {
+    font-size: 16px;
+}
+.register-btn {
+    background: #3671E9;
+    padding: 14px 32px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+.login-btn {
+    font-weight: 300;
+    background-color: transparent;
+}
+.flex-container {
+    display: flex;
+    padding: 0 3rem;
+    position: relative;
+    justify-content: center;
+    background-color: #0D0D2B;
+}
+/* Select all child elements. element > element. */
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+}
+.flex-container .main-text {
+    margin-top: 3rem;
+}
+.flex-container .main-text .main-save {
+    display: flex;
+    align-items: center;
+}
+.flex-container .main-text .save-btn {
+    width: 113px;
+    height: 25px;
+    background: var(--natural-white);
+    border-radius: 32px;
+    color: black;
+    font-size: 12px;
+    padding: 0.5;
+}
+.flex-container .main-text .main-save {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    max-width: 60%;
+    margin-bottom: 1.2rem;
+}
+.flex-container .main-text span {
+    font-size: 14px;
+    background-color: transparent;
+    color: var(--natural-white);
+}
+.flex-container .main-text h1{
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 1.2rem;
+}
+.flex-container .main-text p{
+    font-size: 20px;
+    font-weight: 300;
+    font-variant: normal;
+}
+.flex-container .main-text .main-btn {
+    margin-top: 1.2rem;
+    width: 202px;
+    height: 64px;  
+    background: #3671E9;
+    border-radius: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;  
+}
+.flex-container .main-text i {
+    padding-left: 1.6rem;
+    font-size: 25px;
+    background: none;
+    width: 40px;
+}
+.gradient-bg{
+    position: absolute;
+    width: 120px;
+    height: 997.88px;
+    left: 440px;
+    top: 250.86px;
+    margin-left: 40px;
+    background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+    transform: rotate(-120deg);
+}
+.gradient-bglast {
+    position: absolute;
+    width: 120px;
+    height: 997.88px;
+    left: 860px;
+    top: 392.86px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 34.75%, rgba(255, 255, 255, 0.01) 100%);
+    transform: rotate(-120deg);
+}
+.learnmore {
+    background-color: #0D0D2B;
+    min-height: 865px;
+    min-width: 90%;
+}
+.learnmore h2, h3 {
+    color: var(--natural-white);
+}
+.learnmore > div {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+}
+.learnmore .icons .icon {
+    display: flex;
+    flex-wrap: wrap;
+}
+.learnmore .icons {
+    display: flex;
+}
+.learnmore .icons .icon i {
+    border-radius: 50%;
+    margin: 0.7rem;
+   /* background-color: var(--natural-white);
+    /*opacity: 0.1;*/
+    height: 60px;
+    width: 60px;
+    display: flex;
+    color: #3671E9;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.08);
+}
+.learnmore .icons .icon h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.learnmore .icons .icon .icon-text {
+    padding: 1rem;
+}
+.learnmore .learnmore-image {
+    width: 50%;
+    height: 200px;
+}
+.learnmore .learnmore-text {
+    padding: 1rem;
+    width: 50%;
+    height: 200px;
+}
+.learnmore-main {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    font-weight: 300;
+}
+.learnmore-text h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.learnmore-main .learnmore-text .button {
+    margin-top: 1rem;
+    background-color: #3671E9;
+    padding: 14px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    font-size: 14px;
+}
+.learnmore-main .learnmore-text .learnmore-info {
+    width: 70%;
+}
+.trade-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+.trade-container > div { 
+    width: 50%;
+}
+.trade-container .trade-headingtxt {
+    text-align: center;
+    font-weight: 300;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 357px;
+}
+.trade-container .trade-headingtxt h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--natural-white);
+}
+.trade-container .trade-card {
+    margin-top: -9rem;
+    background-color: #fff;
+    height: 300px;
+    padding: 2rem 2rem;
+    width: 55%;
+    border-radius: 10px;  
+}
+.trade-container .trade-card form {
+    text-align: center;    
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.trade-container .trade-card .form-btn{
+    background-color: #3671E9;
+    border-radius: 32px;
+}
+select{
+    background-color: var(--natural-white);
+    color: rgb(0, 0, 0);
+    width: 70px;
+    border-style: none;
+    box-shadow: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+input{
+    background-color: var(--natural-white);
+    border-style: none;
+    border-bottom: 5px #3671E9;
+    min-width: 230px;
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+.trade-info {
+    margin-top: 4rem;
+}
+.trade-info span {
+    margin-top: 1rem;
+    color: #3671E9;
+    font-weight: 500;
+}
+.trade-info h3 {
+    margin: 1rem 0;
+    font-weight: 400;
+    color: #000000;
+}
+.trade-info p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #000000;
+}
+.trade-info h5 {
+    color: #3671E9;
+}
+.earn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);    width: 100%;
+    height: 1200px;
+}
+.earn-heading {
+    width: 35%;
+    color: #0D0D2B;    
+    line-height: 150%;
+}
+.earn p, h2, span {
+    color:#000000;
+}
+.earn h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5rem;
+
+}
+.earn-iconcards {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 3rem;
+}
+.earn-iconcard {
+    text-align: center;
+    margin: 1rem;
+    width: 25%;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: var(--natural-white);
+    flex-direction: column;
+}
+.fa-bitcoin {
+    margin-top: 1.5rem;
+    color: rgb(249, 170, 75)
+}
+.earn-iconcard:first-child {
+    background-color: #2B076E;
+}
+.earn-iconcards .earn-iconcard h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 1.5rem;
+    position: relative;
+    color:#0D0D2B;  
+    margin-top: 2rem;
+}
+.earn-iconcard:first-child p,
+.earn-iconcard:first-child h3,
+.earn-iconcard:first-child span {
+    color: var(--natural-white);
+}
+.earn-iconcards .earn-iconcard h3 span {
+    font-weight: 300;
+    font-size: 11px;
+    padding-bottom: 1rem;
+    padding-left: 0.2rem;
+    position: absolute;
+    top: 0;
+}
+.earn-iconcards .earn-iconcard button{
+    margin-top: 1rem;
+}
+.earn-iconcards .earn-iconcard .cards-btn {
+    border-radius: 50%;
+    border: 2px solid rgb(197, 197, 197);
+    height: 55px;
+    width: 55px;
+    background-color: var(--natural-white);
+}
+.fa-angle-right {
+    color: #3671E9;
+    font-size: 17px;
+}
+.fa-ethereum {
+    font-size: 30px;
+    background: 59C19C;
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;   
+    width: 50px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #3671E9;
+    margin-top: 1.5rem;
+}
+.fa-litecoin-sign {
+    background-color: #59C19C;
+    font-size: 30px;
+    background: 59C19C;
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;   
+    width: 50px;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+}
