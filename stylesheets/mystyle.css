@@ -322,8 +322,9 @@ input[type=text] {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);    width: 100%;
-    height: 1200px;
+    background: linear-gradient(180deg, #e8e8e9 0%, #eceef5 100%);    
+    width: 100%;
+    padding-bottom: 3rem;
 }
 .earn-heading {
     width: 35%;
@@ -336,14 +337,13 @@ input[type=text] {
 .earn h2 {
     font-size: 24px;
     font-weight: 600;
-    margin-top: 5rem;
-
+    margin-top: 23rem;
 }
 .earn-iconcards {
     display: flex;
     justify-content: space-between;
     width: 65%;
-    margin: 3rem;
+    margin-top: 3rem;
 }
 .earn-iconcard {
     text-align: center;
@@ -419,4 +419,93 @@ input[type=text] {
     text-align: center;
     padding: 0.5rem;
     margin-top: 1.5rem;
+}
+/* Feature section */
+.feature {
+    background-color: #2B076E;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.feature .feature-heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+.feature h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    width: 40%;
+}
+.feature .featurecontainer {
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    padding: 2rem;
+    background-color: #2B076E;
+
+
+}
+.featureboxfirst {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.featureboxfirst h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.featureboxfirst p {
+    margin-bottom: 2rem;
+}
+.featureboxsecond {
+    width: 50%;    
+}
+.featureboxsecond img {
+    margin-right: 4rem;
+}
+.feature-containermiddle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2B076E;
+}
+.featuremiddle-text {
+    padding-left: 6rem;
+    padding: 8rem;
+}
+.featuremiddle-text h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.featuremiddle-text p {
+    margin-bottom: 2rem;
+}
+.feature-containerlast {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2B076E;
+    padding-top: 4rem;
+}
+.featurelast-text {
+    padding-left: 6rem;
+}
+.featurelast-text h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.featurelast-text p {
+    margin-bottom: 2rem;
+}
+.featureboxlast-image {
+    margin-right: 2rem;
 }
