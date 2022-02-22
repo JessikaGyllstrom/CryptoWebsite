@@ -316,6 +316,8 @@ input[type=text] {
 .trade-info h5 {
     color: #3671E9;
 }
+
+/* Earn section */
 .earn {
     display: flex;
     align-items: center;
@@ -451,8 +453,6 @@ input[type=text] {
     min-height: 300px;
     padding: 2rem;
     background-color: #2B076E;
-
-
 }
 .featureboxfirst {
     width: 100%;
@@ -495,6 +495,7 @@ input[type=text] {
     align-items: center;
     background-color: #2B076E;
     padding-top: 4rem;
+    padding-bottom: 10rem;
 }
 .featurelast-text {
     padding-left: 6rem;
@@ -508,4 +509,134 @@ input[type=text] {
 }
 .featureboxlast-image {
     margin-right: 2rem;
+}
+
+/* Start mining section */
+.mining-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2B076E;
+    padding-bottom: 5rem;
+}
+.mining-container .mining-box {
+    background-color: #3671E9;
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+}
+.mining-container .mining-box .mining-text {
+    width: 31%;
+    height: 100%;
+}
+.mining-container .mining-box .mining-text h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.mining-container .mining-box .mining-text p {
+    font-weight: 200;
+}
+.mining-container .mining-box .formbtn button{
+    margin-top: 1rem;
+    background-color: #ffffff;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    border-radius: 32px;
+    font-size: 14px;
+    margin-left: 3rem;
+    font-weight: 400;
+}
+.mining-container .mining-box .form {
+    width: 40%;
+    margin-left: 4rem;
+}
+.mining-container .mining-box .form input {
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+.mining-container .mining-box .form input::placeholder {
+    color: #ffffff;
+    font-size: 14px;
+}
+/* Footer */
+footer {
+    background-color: #0D0D2B;
+
+
+}
+.footertopcontainer {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.footertopcontainer .footer-logo {
+    display: flex;
+    max-height: 40px;
+    align-items: center;
+    text-align: center;
+}
+.footertopcontainer .footer-logo img {
+    min-width: 25px;
+    min-height: 25px;
+    padding-right: 0.7rem;
+}
+.footertopcontainer h3 {
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+}
+.footertopcontainer .footer-payment h3 {
+    width: 80%;
+}
+.footertopcontainer .footer-payment .footericons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footertopcontainer .footer-payment .footericon {
+    padding: 0.5rem;
+    min-height: 60px;
+    min-width: 60px;
+    background-color: rgba(248, 248, 248, 0.09);
+    margin-right: 4rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footertopcontainer .footer-payment .footericons i{
+    color: #ffffff;
+}
+/* footer bottom part */
+.footer-bottomcontainer{
+    width: 100%;
+    display: flex;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+.footer-bottomcontainer .footer-copyright {
+    width: 70%;
+}
+.footer-bottomcontainer .footer-copyright p {
+    font-size: 13px;
+}
+.footer-bottomcontainer .footer-socialicons {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-right: 4rem;
+}
+.footer-bottomcontainer .footer-socialicons i {
+    font-size: 20px;
 }
